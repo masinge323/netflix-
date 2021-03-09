@@ -1,11 +1,12 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import '../style/HomeScreen.css'
 
 const HomeScreen = () => {
     return (
-        <>
-         I am a screen on your page   
-        </>
+        <Container>
+         I am a screen on your page  
+        </Container>
     )
 }
 
